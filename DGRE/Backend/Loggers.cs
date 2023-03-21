@@ -8,7 +8,8 @@ namespace DGRE
     public class Loggers
     {
         // public List<DateTime> LogInfo { get; private set; } = new List<DateTime>();
-        string filePath = @"E:\DGRE\Backend\logs\Logit.txt";
+        // string filePath = @"E:\DGRE\Backend\logs\Logit.txt";
+        string filePath = @"C:\Users\Student\workspace\DGRE\DGRE\Backend\logs\Logit.txt";
 
 
         public Loggers()

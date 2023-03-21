@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DGRE\\Backend\\DGRE.csproj": {}
+    "C:\\Users\\Student\\workspace\\DGRE\\DGRE\\Backend\\DGRE.csproj": {}
   },
   "projects": {
-    "E:\\DGRE\\Backend\\DGRE.csproj": {
+    "C:\\Users\\Student\\workspace\\DGRE\\DGRE\\Backend\\DGRE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DGRE\\Backend\\DGRE.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\workspace\\DGRE\\DGRE\\Backend\\DGRE.csproj",
         "projectName": "DGRE",
-        "projectPath": "E:\\DGRE\\Backend\\DGRE.csproj",
+        "projectPath": "C:\\Users\\Student\\workspace\\DGRE\\DGRE\\Backend\\DGRE.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "E:\\DGRE\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\Student\\workspace\\DGRE\\DGRE\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",

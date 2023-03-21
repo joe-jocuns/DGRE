@@ -40,3 +40,17 @@ E:\DGRE\Backend\obj\Debug\netcoreapp3.1\DGRE.csproj.CoreCompileInputs.cache
 E:\DGRE\Backend\obj\Debug\netcoreapp3.1\DGRE.dll
 E:\DGRE\Backend\obj\Debug\netcoreapp3.1\DGRE.pdb
 E:\DGRE\Backend\obj\Debug\netcoreapp3.1\DGRE.genruntimeconfig.cache
+C:\Users\Student\workspace\DGRE\DGRE\Backend\bin\Debug\netcoreapp3.1\DGRE.exe
+C:\Users\Student\workspace\DGRE\DGRE\Backend\bin\Debug\netcoreapp3.1\DGRE.deps.json
+C:\Users\Student\workspace\DGRE\DGRE\Backend\bin\Debug\netcoreapp3.1\DGRE.runtimeconfig.json
+C:\Users\Student\workspace\DGRE\DGRE\Backend\bin\Debug\netcoreapp3.1\DGRE.runtimeconfig.dev.json
+C:\Users\Student\workspace\DGRE\DGRE\Backend\bin\Debug\netcoreapp3.1\DGRE.dll
+C:\Users\Student\workspace\DGRE\DGRE\Backend\bin\Debug\netcoreapp3.1\DGRE.pdb
+C:\Users\Student\workspace\DGRE\DGRE\Backend\obj\Debug\netcoreapp3.1\DGRE.csproj.AssemblyReference.cache
+C:\Users\Student\workspace\DGRE\DGRE\Backend\obj\Debug\netcoreapp3.1\DGRE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\workspace\DGRE\DGRE\Backend\obj\Debug\netcoreapp3.1\DGRE.AssemblyInfoInputs.cache
+C:\Users\Student\workspace\DGRE\DGRE\Backend\obj\Debug\netcoreapp3.1\DGRE.AssemblyInfo.cs
+C:\Users\Student\workspace\DGRE\DGRE\Backend\obj\Debug\netcoreapp3.1\DGRE.csproj.CoreCompileInputs.cache
+C:\Users\Student\workspace\DGRE\DGRE\Backend\obj\Debug\netcoreapp3.1\DGRE.dll
+C:\Users\Student\workspace\DGRE\DGRE\Backend\obj\Debug\netcoreapp3.1\DGRE.pdb
+C:\Users\Student\workspace\DGRE\DGRE\Backend\obj\Debug\netcoreapp3.1\DGRE.genruntimeconfig.cache
