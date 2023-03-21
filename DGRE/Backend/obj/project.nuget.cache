@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9ZjGajglIAwIdS74GjN+2ijy9KUagC9B9Ce40xdnE8R230N1OB8K7kj1h8o6M+/MpD+GfDa3qLjjtWcxZUNUgg==",
+  "success": true,
+  "projectFilePath": "E:\\DGRE\\Backend\\DGRE.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,22 @@
+
+section{
+    background-color: chartreuse;
+}
+p{
+    background-color: rgb(62, 62, 219);
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+height: 200px;
+
+}
+body{
+font-family: fantasy;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+h1{
+    font-size:70px
+}
+h2{
+    font-size: 30px;
+}
