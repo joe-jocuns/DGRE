@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Globalization;
 using System.Text;
 
 namespace DGRE
@@ -26,25 +28,30 @@ namespace DGRE
 
         public int degreeObjectYear { get; set; }
 
-        public void DTtoDGREobjectMilSec(DateTime incomingDT)
-        {
-            degreeObjectMilSec = incomingDT.Millisecond;
-        }
+        public string degreeObjectIsAmOrPm { get; set; }
 
         public DegreeObject() { }
 
-        public DegreeObject(int degreeId, int projectId, int degreeObjectMilSec, int degreeObjectSec, int degreeObjectMinute, int degreeObjectHour, int degreeObjectDay, int degreeObjectDayOfTheWeek, int degreeObjectMonth, int degreeObjectYear)
+        public DegreeObject DegreeObjectmaker(DateTime incomingDT,int incomingProject)
         {
-            this.degreeId = degreeId;
-            this.projectId = projectId;
-            this.degreeObjectMilSec = degreeObjectMilSec;
-            this.degreeObjectSec = degreeObjectSec;
-            this.degreeObjectMinute = degreeObjectMinute;
-            this.degreeObjectHour = degreeObjectHour;
-            this.degreeObjectDay = degreeObjectDay;
-            this.degreeObjectDayOfTheWeek = degreeObjectDayOfTheWeek;
-            this.degreeObjectMonth = degreeObjectMonth;
-            this.degreeObjectYear = degreeObjectYear;
+            DegreeObject maker = new DegreeObject();
+
+            maker.projectId = incomingProject;
+            maker.degreeObjectMilSec = incomingDT.Millisecond;
+            maker.degreeObjectSec = incomingDT.Second;
+            maker.degreeObjectMinute = incomingDT.Minute;
+            maker.degreeObjectHour = incomingDT.Hour;
+            maker.degreeObjectDay = incomingDT.Day;
+            maker.degreeObjectDayOfTheWeek = (int)incomingDT.DayOfWeek;
+            maker.degreeObjectMonth = incomingDT.Month;
+            maker.degreeObjectYear = incomingDT.Year;
+            maker.degreeObjectIsAmOrPm = incomingDT.ToString("tt", CultureInfo.InvariantCulture);
+            return maker;
+        }
+
+        public static implicit operator DegreeObject(SqlDataReader v)
+        {
+            throw new NotImplementedException();
         }
     }
 }

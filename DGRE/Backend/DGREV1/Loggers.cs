@@ -9,7 +9,7 @@ namespace DGRE
     {
         // public List<DateTime> LogInfo { get; private set; } = new List<DateTime>();
         // string filePath = @"E:\DGRE\Backend\logs\Logit.txt";
-        string filePath = @"C:\Users\Student\workspace\DGRE\DGRE\Backend\logs\Logit.txt";
+        string filePath = @"C:\Users\Student\workspace\DGRE\DGRE\Backend\DGREV1\logs\Logit.txt";
 
 
         public Loggers()
@@ -39,6 +39,9 @@ namespace DGRE
 
         public List<DateTime> ReadLogToPC()
         {
+
+
+
             List<DateTime> LogInfo = new List<DateTime>();
             using (StreamReader reader = new StreamReader(filePath))
             {
@@ -50,7 +53,11 @@ namespace DGRE
                     LogInfo.Add(lineOfInputParsed);
                 }
             }
+
             return LogInfo;
+
+
+
         }
 
     }

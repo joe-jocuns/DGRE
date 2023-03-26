@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DGREv2.props" />
+</Project>
